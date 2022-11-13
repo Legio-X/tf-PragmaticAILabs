@@ -5,4 +5,4 @@ TensorFlow starter using Pragmatic AI Labs Guide
 1. Create a virtual environment `virtualenv ~/venv`
 2. Edit `~\bashrc`
 3. pip freeze to check the current installed libs
-4. add `liv=x.x.x` to requirements.txt to freeze the version
+4. add `lib=x.x.x` to requirements.txt to freeze the version

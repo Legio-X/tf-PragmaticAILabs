@@ -7,3 +7,11 @@ lint:
 
 test:
 	python -m pytest -vv --cov=devopslib test*.py
+
+format:
+	black *.py devopslib/*.py
+
+deploy:
+	echo "deploy goes here"
+all:
+	install lint test format deploy
